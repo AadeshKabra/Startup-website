@@ -1,0 +1,23 @@
+#sections {
+    background-color: cornsilk;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 15em;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 2em 3em;
+    text-align: center;
+}
+
+.button-type {
+    margin: 2em 2em;
+}
+
+#local {
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-position: center;
+}

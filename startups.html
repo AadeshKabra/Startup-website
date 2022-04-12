@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="startups.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="sections" id="sections">
+        <h1> Look for startups?</h1>
+        <button type="button" class="btn btn-outline-primary btn-lg button-type" href="#local"
+            id="local-btn">Local</button>
+        <button type="button" class="btn btn-outline-primary btn-lg button-type" href="#national">National</button>
+        <button type="button" class="btn btn-outline-primary btn-lg button-type"
+            href="#international">International</button>
+    </div>
+
+    <div class="local" id="local" style="margin: 4em;">
+        <h1>These are local startups</h1>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <div class="col">
+                    <div class="card h-100" style="margin: 2em;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="national" id="national" style="margin: 4em;">
+        <h1>These are National-level startups</h1>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <div class="col">
+                    <div class="card h-100" style="margin: 2em;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <div class="international" id="international" style="margin: 4em;">
+        <h1>These are International-level startups</h1>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <div class="col">
+                    <div class="card h-100" style="margin: 2em;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <form class="registerationForm" style="margin: 4em;">
+        <h1 style="margin: 2em;">Register your startup with us!</h1>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="firstName" class="form-control" />
+              <label class="form-label" for="firstName">First name</label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="lastName" class="form-control" />
+              <label class="form-label" for="lastName">Last name</label>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Text input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="companyName" class="form-control" />
+          <label class="form-label" for="companyName">Company name</label>
+        </div>
+      
+        <!-- Text input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="address" class="form-control" />
+          <label class="form-label" for="address">Address</label>
+        </div>
+      
+        <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline">
+                <input type="email" id="email" class="form-control" />
+                <label class="form-label" for="email">Email</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-outline">
+                <input type="number" id="phone" class="form-control" />
+                <label class="form-label" for="phone">Phone</label>
+              </div>
+            </div>
+          </div>
+
+        
+        <!-- Message input -->
+        <div class="form-outline mb-4">
+          <textarea class="form-control" id="information" rows="4"></textarea>
+          <label class="form-label" for="information">Additional information</label>
+        </div>
+      
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Register</button>
+      </form>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
